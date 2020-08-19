@@ -1,0 +1,7 @@
+To compile this program Run Command:
+
+$make all
+It will generate executable files. Run linux-shell from them.
+
+$make clean
+To remove the generated (executables) files.

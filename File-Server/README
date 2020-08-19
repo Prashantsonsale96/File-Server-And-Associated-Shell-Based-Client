@@ -1,0 +1,7 @@
+Implemeted a shell based client with various features such as pipe, file-redirection, signal handling.
+Used c socket programming libraries to design a file server which can handles the concurrent clients.
+
+* To compile the server program run command:
+	g++ -pthread c-server.c -o c-server
+*To run the server:
+	./c-server PORT_NO WORKER_THREADS QUEUE_SIZE

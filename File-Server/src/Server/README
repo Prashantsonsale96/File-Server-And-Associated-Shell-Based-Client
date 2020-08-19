@@ -1,0 +1,4 @@
+To compile the server:
+	g++ -pthread c-server.c -o c-server
+To run the server:
+	./c-server PORT_NO WORKER_THREADS QUEUE_SIZE
